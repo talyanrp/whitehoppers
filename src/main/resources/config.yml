@@ -1,0 +1,203 @@
+hoppers:
+  cooktime_x2:
+    key: cooktime_x2
+    send:
+      tick-rate: 20
+      amount-per-tick: 3
+      lose:
+        chance: 35.0
+        amount: 1
+    receive:
+      tick-rate: 60
+      amount-per-tick: 10
+    item:
+      material: HOPPER
+      name: '&x&4&6&8&D&f&A&l● &x&4&7&9&2&f&B&lФ&x&4&8&9&5&f&B&lа&x&4&8&9&8&f&C&lс&x&4&9&9&A&f&C&lт
+        &x&4&A&A&0&f&D&lВ&x&4&B&A&3&f&D&lо&x&4&C&A&5&f&D&lр&x&4&C&A&8&f&E&lо&x&4&D&A&B&f&E&lн&x&4&D&A&D&f&f&lк&x&4&E&B&0&f&f&lа'
+      lore:
+      - ''
+      - '&x&4&6&8&D&f&AОсобенности:'
+      - ' &7▪ &x&f&d&f&d&f&dПеремещает ресурсы в два'
+      - ' &7▪ &x&f&d&f&d&f&dраза быстрее обычной'
+      - ''
+      flags:
+      - HIDE_ENCHANTS
+      enchants:
+        DURABILITY: 1
+  enchant_all_x2:
+    key: enchant_all_x2
+    send:
+      tick-rate: 10
+      amount-per-tick: 6
+      lose:
+        chance: 35.0
+        amount: 1
+    receive:
+      tick-rate: 120
+      amount-per-tick: 20
+    item:
+      material: HOPPER
+      name: '&7« &x&f&B&5&4&0&DСупер Воронка &7»'
+      flags:
+      - HIDE_ENCHANTS
+      enchants:
+        DURABILITY: 1
+furnaces:
+  cooktime_x2:
+    key: first
+    fuel-mlt: 1.0
+    ticks-for-smelt: 100
+    resources-out: 1
+    item:
+      material: FURNACE
+      name: '&x&4&6&D&5&f&A&l● &x&4&7&D&3&f&B&lС&x&4&8&D&2&f&B&lк&x&4&8&D&1&f&B&lо&x&4&9&D&0&f&C&lр&x&4&9&C&f&f&C&lо&x&4&A&C&E&f&C&lс&x&4&A&C&D&f&D&lт&x&4&B&C&C&f&D&lн&x&4&B&C&B&f&D&lа&x&4&C&C&A&f&D&lя
+        &x&4&D&C&8&f&E&lп&x&4&D&C&7&f&E&lе&x&4&E&C&6&f&f&lч&x&4&E&C&5&f&f&lь'
+      lore:
+      - ''
+      - '&x&4&6&D&5&f&AОсобенности:'
+      - ' &7▪ &x&f&d&f&d&f&dПлавит ресурсы в 2 раза'
+      - ' &7▪ &x&f&d&f&d&f&dбыстрее обычной печи'
+      - ''
+      flags:
+      - HIDE_ENCHANTS
+      enchants:
+        DURABILITY: 1
+  doubleFurnace:
+    key: doubleFurnace
+    fuel-mlt: 1.0
+    ticks-for-smelt: 200
+    resources-out: 2
+    item:
+      material: FURNACE
+      name: '&x&f&8&f&A&4&6&l● &x&E&7&f&B&4&7&lД&x&D&f&f&B&4&8&lв&x&D&6&f&C&4&8&lо&x&C&E&f&C&4&9&lй&x&C&5&f&C&4&A&lн&x&B&D&f&D&4&A&lа&x&B&4&f&D&4&B&lя
+        &x&A&3&f&E&4&C&lп&x&9&B&f&E&4&D&lе&x&9&2&f&f&4&D&lч&x&8&A&f&f&4&E&lь'
+      lore:
+      - ''
+      - '&x&f&8&f&A&4&6Особенности:'
+      - ' &7▪ &x&f&d&f&d&f&dВыдаёт двойной результат'
+      - ' &7▪ &x&f&d&f&d&f&dпри плавке ресурсов'
+      - ''
+      flags:
+      - HIDE_ENCHANTS
+      enchants:
+        DURABILITY: 1
+  smeltFurnace:
+    key: smeltFurnace
+    fuel-mlt: 0.2
+    ticks-for-smelt: 400
+    resources-out: 1
+    item:
+      material: FURNACE
+      name: '&x&f&f&C&5&5&5&l● &x&f&f&C&8&5&8&lТ&x&f&f&C&B&5&B&lо&x&f&f&C&E&5&E&lп&x&f&f&D&1&6&1&lл&x&f&f&D&4&6&4&lи&x&f&f&D&7&6&7&lв&x&f&f&D&A&6&A&lн&x&f&f&D&D&6&D&lа&x&f&f&E&0&7&0&lя
+        &x&f&f&E&6&7&6&lП&x&f&f&E&9&7&9&lе&x&f&f&E&C&7&C&lч&x&f&f&E&f&7&f&lь'
+      lore:
+      - ''
+      - '&x&f&f&C&5&5&5Особенности:'
+      - ' &7▪ &x&f&d&f&d&f&dПлавит ресурсы потребляя'
+      - ' &7▪ &x&f&d&f&d&f&dзначительно меньше топлива'
+      - ''
+      flags:
+      - HIDE_ENCHANTS
+      enchants:
+        DURABILITY: 1
+  enchant_all_x2:
+    key: enchant_all_x2
+    fuel-mlt: 0.2
+    ticks-for-smelt: 100
+    resources-out: 1
+    item:
+      material: FURNACE
+      name: '&7« §x§9§3§B§D§F§FСупер Печка &7»'
+      lore:
+      - ''
+      - '§x§9§3§B§D§F§F▶ Особенности:'
+      - ' &7- &x&f&d&f&d&f&dДанная печка позволит Вам плавить   '
+      - ' &7- &x&f&d&f&d&f&dресурсы в 2 раза быстрее и при этом   '
+      - ' &7- &x&f&d&f&d&f&dупотреблять меньше топлива  '
+      - ''
+      flags:
+      - HIDE_ENCHANTS
+      enchants:
+        DURABILITY: 1
+  enchant_all_x3:
+    key: enchant_all_x3
+    fuel-mlt: 0.2
+    ticks-for-smelt: 100
+    resources-out: 2
+    item:
+      material: FURNACE
+      name: '&7« §x§9§3§B§D§F§FУльтра Печь &7»'
+      lore:
+      - ''
+      - '§x§9§3§B§D§F§F▶ Особенности:'
+      - ' &7- &fДанная печка позволит Вам плавить   '
+      - ' &7- &fресурсы в 2 раза быстрее и при этом   '
+      - ' &7- &fупотреблять меньше топлива,   '
+      - ' &7- &fа также удваивать ресурсы!  '
+      - ''
+      flags:
+      - HIDE_ENCHANTS
+      enchants:
+        DURABILITY: 1
+brewers:
+  fuelBrewingStand:
+    key: fuelBrewingStand
+    brew-time-dec-Interval: 0
+    brew-time-dec-value: 0
+    brew-fuel-multiplier: 2.0
+    save-ingrid-chance: 0
+    item:
+      material: BREWING_STAND
+      name: '&x&C&4&4&6&f&A&l● &x&C&1&4&7&f&B&lТ&x&C&0&4&7&f&B&lо&x&B&E&4&8&f&B&lп&x&B&D&4&8&f&B&lл&x&B&B&4&8&f&C&lи&x&B&A&4&9&f&C&lв&x&B&8&4&9&f&C&lн&x&B&7&4&A&f&C&lа&x&B&6&4&A&f&D&lя
+        &x&B&3&4&B&f&D&lЗ&x&B&1&4&B&f&D&lе&x&B&0&4&C&f&E&lл&x&A&E&4&C&f&E&lь&x&A&D&4&C&f&E&lв&x&A&B&4&D&f&E&lа&x&A&A&4&D&f&f&lр&x&A&8&4&E&f&f&lк&x&A&7&4&E&f&f&lа'
+      lore:
+      - ''
+      - '&x&C&4&4&6&f&AОсобенности:'
+      - ' &7▪ &x&f&d&f&d&f&dПозволяет тратить меньше'
+      - ' &7▪ &x&f&d&f&d&f&dтоплива при варке зелий'
+      - ''
+      flags:
+      - HIDE_ENCHANTS
+      enchants:
+        DURABILITY: 1
+  luckyBrewingStand:
+    key: luckyBrewingStand
+    brew-time-dec-Interval: 0
+    brew-time-dec-value: 0
+    brew-fuel-multiplier: 1.0
+    save-ingrid-chance: 50
+    item:
+      material: BREWING_STAND
+      name: '&x&f&A&A&5&4&6&l● &x&f&B&A&8&4&7&lВ&x&f&B&A&9&4&7&lе&x&f&B&A&B&4&8&lз&x&f&B&A&C&4&8&lу&x&f&C&A&E&4&9&lч&x&f&C&A&f&4&9&lа&x&f&C&B&1&4&9&lя
+        &x&f&D&B&4&4&A&lЗ&x&f&D&B&5&4&B&lе&x&f&D&B&7&4&B&lл&x&f&D&B&8&4&B&lь&x&f&E&B&A&4&C&lе&x&f&E&B&B&4&C&lв&x&f&E&B&D&4&D&lа&x&f&E&B&E&4&D&lр&x&f&f&C&0&4&E&lк&x&f&f&C&1&4&E&lа'
+      lore:
+      - ''
+      - '&x&f&A&A&5&4&6Особенности:'
+      - ' &7▪ &x&f&d&f&d&f&dС шансом 50% не тратит'
+      - ' &7▪ &x&f&d&f&d&f&dингредиенты при варке'
+      - ''
+      flags:
+      - HIDE_ENCHANTS
+      enchants:
+        DURABILITY: 1
+  superBrewingStand:
+    key: superBrewingStand
+    brew-time-dec-Interval: 0
+    brew-time-dec-value: 0
+    brew-fuel-multiplier: 3.0
+    save-ingrid-chance: 35
+    item:
+      material: BREWING_STAND
+      name: '&x&f&f&D&7&0&0&l● &x&f&f&D&A&0&C&lС&x&f&f&D&D&1&8&lу&x&f&f&E&0&2&4&lп&x&f&f&E&3&3&0&lе&x&f&f&E&6&3&C&lр
+        &x&f&f&E&C&5&4&lЗ&x&f&f&E&f&6&0&lе&x&f&f&f&2&6&C&lл&x&f&f&f&5&7&8&lь&x&f&f&f&8&8&4&lе&x&f&f&f&B&9&0&lв&x&f&f&f&E&9&C&lа&x&f&f&f&f&A&8&lр&x&f&f&f&f&B&4&lк&x&f&f&f&f&C&0&lа'
+      lore:
+      - ''
+      - '&x&f&f&D&7&0&0Особенности:'
+      - ' &7▪ &x&f&d&f&d&f&dТратит в 3 раза меньше'
+      - ' &7▪ &x&f&d&f&d&f&dтоплива и с шансом 50%'
+      - ' &7▪ &x&f&d&f&d&f&dсохраняет ингредиент'
+      - ''
+      flags:
+      - HIDE_ENCHANTS
+      enchants:
+        DURABILITY: 1

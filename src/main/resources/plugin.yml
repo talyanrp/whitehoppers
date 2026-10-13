@@ -1,0 +1,22 @@
+name: WhiteCustomHoppers
+main: ru.nbk.fasthopper.FastHopperPlugin
+version: '1.0'
+api-version: '1.21'
+authors: [malinov]
+commands:
+  whitecustomhoppers:
+    description: Выдача и перезагрузка быстрых воронок
+    usage: /whitecustomhoppers <give|reload>
+  whitecustomfurnaces:
+    description: Выдача и перезагрузка быстрых печек
+    usage: /whitecustomfurnaces <give|reload>
+  whitecustombrewers:
+    description: Выдача и перезагрузка быстрых варочных стоек
+    usage: /whitecustombrewers <give|reload>
+permissions:
+  whitecustomhoppers.command:
+    default: op
+  whitecustomfurnaces.command:
+    default: op
+  whitecustombrewers.command:
+    default: op
